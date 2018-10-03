@@ -1,0 +1,139 @@
+body {
+  background-color: #efecec;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+#photo_circle {
+  height: 8em;
+  width: 8em;
+  border-radius: 10em;
+  border-width: 1px;
+  border-style: outset;
+  box-shadow: 2px 2px 3px lightgrey;
+  margin-top: 1em;
+}
+
+.infos {
+  width: 60%;
+  margin-left: 15em;
+  margin-top: 5em;
+  background-color: white;
+  border-width: 1.5px;
+  box-shadow: 2px 2px 3px lightgrey;
+  padding: 0.7em;
+  padding-left: 1em;
+  border-radius: 4px;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.align {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-left: -2.5em;
+}
+
+.card_format {
+  width: 60%;
+  margin-left: 15em;
+  margin-top: 2em;
+  background-color: white;
+  border-width: 1.5px;
+  box-shadow: 2px 2px 3px lightgrey;
+  padding: 0.7em;
+  padding-left: 1em;
+  border-radius: 4px;
+}
+
+.card_format h2 {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+.card_format h3 {
+  margin-left: 5em;
+  margin-top: -2em;
+  font-size: 0.9em;
+}
+
+.card_format p {
+  margin-top: -0.5em;
+}
+
+.compact_paragraph {
+  padding: -0.5em;
+}
+
+
+.photo_icon {
+  height: 4em;
+  width: 4em;
+}
+
+@media (max-width: 960px) {
+  .card_format {
+    margin-left: 15em;
+  }
+  .infos {
+    margin-left: 15em;
+  }
+}
+@media (max-width: 720px) {
+  .card_format {
+    margin-left: 10em;
+  }
+  .infos {
+    margin-left: 10em;
+  }
+}
+@media (max-width: 540px) {
+  .card_format {
+    margin-left: 5em;
+  }
+  .infos {
+    margin-left: 5em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
